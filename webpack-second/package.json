@@ -1,0 +1,23 @@
+{
+  "name": "webpack-second",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development",
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.0.0",
+    "jquery": "^3.4.1",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0"
+  }
+}
